@@ -1,0 +1,53 @@
+.box {
+    display: inline-flex;
+    width: 100%;
+}
+
+.user {
+    align-self: flex-end;
+}
+
+.user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid #ff6033;
+    position: relative;
+    border-radius: 5px 5px 5px 0;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+.date {
+    align-self: flex-end;
+}
+
+.body::before {
+    content: "";
+    position: absolute;
+    border: 5px solid transparent;
+    border-right: 5px solid #ff6033;
+    border-bottom: 5px solid #ff6033;
+    left: -10px;
+    bottom: calc(0px - 2px);
+}
+
+.body::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+    left: -12px;
+    bottom: 0;
+}
