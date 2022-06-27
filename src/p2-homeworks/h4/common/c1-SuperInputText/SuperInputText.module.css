@@ -1,5 +1,5 @@
 .superInput {
-
+    background: white;
 }
 
 .errorInput {
@@ -9,4 +9,8 @@
 
 .error {
     color: red;
+}
+
+.spanClassName {
+    text-decoration: line-through;
 }
