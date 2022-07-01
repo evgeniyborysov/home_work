@@ -1,0 +1,50 @@
+.menu-block {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    transition-duration: 500ms;
+    transform: translateX(-240px);
+}
+
+.menu-block:hover {
+    transform: translateX(0px);
+}
+
+.menu {
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin-left: 10px;
+    position: relative;
+}
+
+.menu::after,
+.menu::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    top: -5px;
+}
+
+.menu::before {
+    top: 5px;
+}
+
+.menu-link {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu-link:hover {
+    color: darkorange;
+}
+
+.active {
+    color: red;
+}

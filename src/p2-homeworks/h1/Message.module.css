@@ -18,25 +18,32 @@
     flex-direction: column;
     padding: 10px;
     margin-left: 10px;
-    border: 2px solid #ff6033;
+    border: 2px solid black;
     position: relative;
     border-radius: 5px 5px 5px 0;
+    background-color: black;
 }
 
 .name {
     margin-bottom: 5px;
+    color: white;
 }
 
 .date {
     align-self: flex-end;
+    color: white;
+}
+
+.message {
+    color: white;
 }
 
 .body::before {
     content: "";
     position: absolute;
     border: 5px solid transparent;
-    border-right: 5px solid #ff6033;
-    border-bottom: 5px solid #ff6033;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
     left: -10px;
     bottom: calc(0px - 2px);
 }
