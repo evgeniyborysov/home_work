@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/home_work/static/css/main.08b4adea.css",
-    "main.js": "/home_work/static/js/main.47eb439f.js",
+    "main.js": "/home_work/static/js/main.a3b8ade7.js",
     "static/media/hand-drawn-pencil-icon.svg": "/home_work/static/media/hand-drawn-pencil-icon.f1326b0a3416b04f150b.svg",
     "index.html": "/home_work/index.html",
     "main.08b4adea.css.map": "/home_work/static/css/main.08b4adea.css.map",
-    "main.47eb439f.js.map": "/home_work/static/js/main.47eb439f.js.map"
+    "main.a3b8ade7.js.map": "/home_work/static/js/main.a3b8ade7.js.map"
   },
   "entrypoints": [
     "static/css/main.08b4adea.css",
-    "static/js/main.47eb439f.js"
+    "static/js/main.a3b8ade7.js"
   ]
 }
