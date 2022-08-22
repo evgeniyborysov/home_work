@@ -1,4 +1,4 @@
-import React, { MouseEventHandler, useReducer, useState } from "react";
+import React, { useReducer } from "react";
 import {
 	homeWorkReducer,
 	peopleAllAC,
